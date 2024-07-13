@@ -2,6 +2,18 @@
     font-family: Arial, Helvetica, sans-serif;
     background-color: hsl(0, 0%, 20%);
     border-radius: 15px;
+    max-width: 650px;
+    overflow: hidden;
+}
+
+#displayScreen{
+    width: 100%;
+    padding: 30px;
+    font-size: 4rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 5%);
+    color: white;
 }
 
 #buttons{
