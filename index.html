@@ -11,21 +11,24 @@
         <div id="calculator">
             <input id="displayScreen" readonly>
             <div id="buttons">
-                <button onclick="appendToDisplay('+')">+</button>
-                <button onclick="appendToDisplay('7')">7</button>
-                <button onclick="appendToDisplay('8')">8</button>
-                <button onclick="appendToDisplay('9')">9</button>
-                <button onclick="appendToDisplay('-')">-</button>
-                <button onclick="appendToDisplay('4')">4</button>
-                <button onclick="appendToDisplay('5')">5</button>
-                <button onclick="appendToDisplay('6')">6</button>
-                <button onclick="appendToDisplay('*')">*</button>
-                <button onclick="appendToDisplay('1')">1</button>
-                <button onclick="appendToDisplay('2')">2</button>
-                <button onclick="appendToDisplay('3')">3</button>
-                <button onclick="appendToDisplay('/')">/</button>
-                <button onclick="appendToDisplay('0')">0</button>
-                <button onclick="appendToDisplay('.')">.</button>
+              <!--This contais all the buttons needed for the calculator under the id "buttons"-->
+                <button onclick="appendToDisplayScreen('+')">+</button>
+                <button onclick="appendToDisplayScreen('7')">7</button>
+                <button onclick="appendToDisplayScreen('8')">8</button>
+                <button onclick="appendToDisplayScreen('9')">9</button>
+                <button onclick="appendToDisplayScreen('-')">-</button>
+                <button onclick="appendToDisplayScreen('4')">4</button>
+                <button onclick="appendToDisplayScreen('5')">5</button>
+                <button onclick="appendToDisplayScreen('6')">6</button>
+                <button onclick="appendToDisplayScreen('*')">*</button>
+                <button onclick="appendToDisplayScreen('1')">1</button>
+                <button onclick="appendToDisplayScreen('2')">2</button>
+                <button onclick="appendToDisplayScreen('3')">3</button>
+                <button onclick="appendToDisplayScreen('/')">/</button>
+                <button onclick="appendToDisplayScreen('0')">0</button>
+                <button onclick="appendToDisplayScreen('.')">.</button>
+                <button onclick="calculateTotal()">=</button>
+                <button onclick="clearDisplayScreen()">Clear</button>
 
             </div>
 
