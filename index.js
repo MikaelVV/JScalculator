@@ -2,8 +2,8 @@
 
 let displayScreen = document.getElementById("displayScreen");
 
-function appendToDisplayScreen(){
-    displayScreen.value += displayScreen.Input;
+function appendToDisplayScreen(input){
+    displayScreen.value += input;
 }
 
 function calculateTotal(){
