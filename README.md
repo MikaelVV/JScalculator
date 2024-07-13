@@ -1,3 +1,3 @@
 ## JScalculator
 
-A template for a calculator made by using JavaScript.
+A simple calculator made by using JavaScript.
